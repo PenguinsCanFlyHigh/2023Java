@@ -1,7 +1,7 @@
 package ch7;
 
 public class SportsCar extends Car {
-	double turbo = 1.5; //SetSpeed¿¡ °öÇØÁÖ¸é µÊ
+	double turbo = 1.5; //SetSpeed
 //	double speed = 1;
 	
 	
