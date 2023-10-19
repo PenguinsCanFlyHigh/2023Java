@@ -3,11 +3,30 @@ package ch7;
 public class Car {
 	double speed = 1;
 	double position = 0;
+	HankookTire hTire;
+	KumhoTire kTire;
 	
-//	public Car() {}
-	Car(double speed, double position) {
-		this.speed = speed;
-		this.position = position;
+	public Car(HankookTire hTire) {
+		this.hTire = hTire;
+	}
+	
+	public Car(KumhoTire kTire) {
+		this.kTire = kTire;
+	}
+	
+	public void run() {
+		if(hTire != null) 
+			hTire.roll();
+		if(kTire != null)
+			kTire.roll();
+	}
+	
+	public void SetTire(HankookTire hTire) {
+		this.hTire = hTire;
+	}
+	
+	public void SetTire(KumhoTire kTire) {
+		this.kTire = kTire;
 	}
 	
 	public void SetSpeed(double speed) {
