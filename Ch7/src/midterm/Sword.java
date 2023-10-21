@@ -1,4 +1,4 @@
-package practice2;
+package midterm;
 
 public class Sword extends Weapon {
 	public void swing() {

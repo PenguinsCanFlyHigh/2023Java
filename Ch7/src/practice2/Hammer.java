@@ -1,11 +1,11 @@
 package practice2;
 
 public class Hammer {
-	public void swing() {
-		System.out.println("Bang");
+	public void smash() {
+		System.out.println("Boom");
 	}
 	
 	public void attack() {
-		swing();
+		smash();
 	}
 }

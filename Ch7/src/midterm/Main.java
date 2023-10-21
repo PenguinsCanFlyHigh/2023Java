@@ -1,4 +1,4 @@
-package practice2;
+package midterm;
 
 public class Main {
 
