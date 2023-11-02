@@ -20,6 +20,6 @@ public class Cat implements Pet{
 	
 	public void Cry()
 	{
-		System.out.println("Myao Myao");
+		System.out.println("Meow Meow");
 	}
 }

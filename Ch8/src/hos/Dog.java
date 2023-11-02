@@ -21,6 +21,6 @@ public class Dog implements Pet{
 	
 	public void Cry()
 	{
-		System.out.println("Mong Mong");
+		System.out.println("Meong Meong");
 	}
 }
